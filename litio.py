@@ -1,4 +1,4 @@
-def output_classic(args: utils.OutputArgs):
+def output_classic(args):
     rich.print(f"[bold cyan]{args.title}[/bold cyan]")
     for group in args.groups:
         rich.print(f"[bold blue]{' '*4}- {group['name']}[/bold blue]")
