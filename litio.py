@@ -49,6 +49,6 @@ def output_classic(args: utils.OutputArgs):
                 rich.print(f"[bold red]{' '*12}-Test: failed[/bold red]")
 litio = {
     'output': {
-        'classic': output_classic
+        'litio': output_classic
     }
 }
