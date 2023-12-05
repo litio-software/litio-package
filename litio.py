@@ -1,3 +1,5 @@
+import rich
+
 def output_classic(args):
     rich.print(f"[bold cyan]{args.title}[/bold cyan]")
     for group in args.groups:
